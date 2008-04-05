@@ -1,0 +1,15 @@
+/*
+SKIN NAME: K2 soheit
+THEME URI: http://soheit.de
+DESCRIPTION: K2-Design angepasst und freigegeben für alle Lippeblogger. Mit der Möglichkeit, eine eigene Grafik oder ein Foto in den Seitenkopf einzubauen.
+VERSION: 1.0
+AUTHOR: Volker Thiele, v.thiele@online.de
+AUTHOR URI: http://soheit.de
+
+	GNU General Public License
+	http://www.gnu.org/licenses/gpl.html
+
+*/
+
+@import url('k2rot.css');
+@import url('soheit/soheit.css');

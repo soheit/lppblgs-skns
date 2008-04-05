@@ -1,0 +1,91 @@
+/*
+SKIN NAME: K2modern
+THEME URI: 
+DESCRIPTION: Eigene Kopfgrafik möglich.
+VERSION: 1.0
+AUTHOR: 
+AUTHOR URI: 
+
+	GNU General Public License
+	http://www.gnu.org/licenses/gpl.html
+
+*/
+
+@import url('lib/reset.css');
+@import url('lib/typo16.css');
+@import url('../sandbox-layouts/2c-r.css');
+
+body {
+	text-align: center;
+	background: url('k2modern/grey_bg.jpg');
+	/*background: url('k2modern/back.jpg');*/
+	/*background: url('k2modern/86.jpg');*/
+	/*background: url('k2modern/120.jpg');*/
+}
+
+div#menu, .skip-link {display: none;}
+
+div#wrapper {
+	margin: 0 auto;
+	text-align: left;
+	width: 760px;
+	background: #fff;
+	/*border-left: 2px solid #333;
+		border-right: 2px solid #333;	*/	
+}
+
+#header {
+	height: 280px;
+	background: url('k2modern/banner.jpg');
+}
+
+#blog-title { 
+	margin: 0 1em 0.2em;
+	padding-top: 2.5em; 
+}
+#blog-description { margin: 0 0 0 1.5em; }
+
+a, a:link, a:visited, a:hover, a:active {
+	/*color: #d3649f;*/
+	color: #ad235e;
+}
+
+#comments,
+#nav-above, #nav-below,
+.entry-content, 
+.entry-meta,
+.entry-date {
+	margin: 0 1.5em;
+}
+
+.entry-title {
+	font-weight: bold;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+h3.widgettitle {
+	font-weight: bold;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.entry-meta {
+	color: #666;
+	border-top: 1px dashed #666;
+	font-size: 0.875em;
+	line-height: 1.7142857142857142em;
+	margin-bottom: 1.7142857142857142em;
+}
+#footer {
+	color: #666;
+	/*border-top: 1px dashed #666;*/
+	font-size: 0.875em;
+	padding: .5em 1.5em;
+}
+.entry-date {
+	font-family: "Georgia", Times, serif;
+	font-weight: bold;
+	color: #666;
+}
+body div#content div.entry-date abbr.published {
+	border-bottom: none;
+}

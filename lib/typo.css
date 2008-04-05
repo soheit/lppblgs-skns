@@ -1,0 +1,78 @@
+/* Webdesign ist zu 90 Prozent Typographie 
+ * 
+ * 1.5er Zeilenraster fuer 12px Grundschrift, auch spaltenübergreifend alles 'auf Linie'.
+ * http://www.alistapart.com/articles/settingtypeontheweb
+ * http://topfunky.com/baseline-rhythm-calculator/
+*/
+
+body {
+	font-family: "Helvetica Neue", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 75%;
+	line-height: 1.5em;
+	margin: 0; 
+	padding: 0;
+}
+h1 {
+	margin: 0 0 .9em 0;
+	font-size: 1.6666666666666667em;
+	line-height: .9em;
+}
+h2 {
+	margin: 1em 0 1em 0;
+	font-size: 1.5em;
+	line-height: 1em;
+}
+h3 {
+	margin: 1.125em 0 1.125em 0;
+	font-size: 1.3333333333333333em;
+	line-height: 1.125em;
+}
+h4 {
+	margin: 1.2857142857142858em 0 1.2857142857142858em 0;
+	font-size: 1.1666666666666667em;
+	line-height: 1.2857142857142858em;
+}
+h5, h6, p, ul, ol, blockquote, pre, td, th, label {
+	margin: 0 0 1.5em 0;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+li {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+h5,h6 {font-weight: bold;}
+strong {font-weight: bold;}
+em {font-style: italic;}
+.small {
+	margin: 0;
+	font-size: .8333333333333334em;
+	line-height: 1.8em;
+	margin-bottom: 1.8em;
+}
+table {
+	border-collapse: collapse;
+	margin-bottom: 1.5em;
+}
+abbr {
+	border-bottom: 1px dotted #000 !important;
+	cursor: help;
+}
+ul li ul,
+ul li ul li ul, 
+ol li ol,
+ol li ol li ol {margin-bottom: 0;}
+.hentry {margin-bottom: 3em;}
+#content ul {list-style-type: square;}
+#content ol {list-style-type: decimal;}
+#content ul, #content ol {margin-left: 1.5em;}
+#content ul li, #content ol li {padding-left: .25em;}
+
+#content dl dd {margin-left: 1.5em;}
+#content dl dt {font-weight: bold;}
+
+img.wp-smiley {
+	vertical-align: bottom;
+	margin-right: 0;
+	padding-right: 0;
+}

@@ -1,0 +1,25 @@
+/*
+SKIN NAME: K2 rot
+THEME URI: 
+DESCRIPTION: K2-Design in Rot mit der Möglichkeit, eine eigene Grafik oder ein Foto in den Seitenkopf einzubauen.
+VERSION: 1.0
+AUTHOR: 
+AUTHOR URI: 
+
+	GNU General Public License
+	http://www.gnu.org/licenses/gpl.html
+
+*/
+
+@import url('k2.css');
+
+#header { 
+	background: #900;
+	color: #fff; 
+	}
+#blog-title a { color: #fff; }
+a, a:link, 
+.entry-title a, 
+.entry-meta a,
+#footer a { color: #900; }
+a:hover { color: #000; }

@@ -1,0 +1,155 @@
+/*
+SKIN NAME: tumblelog
+THEME URI: http://lippeblogs.de
+DESCRIPTION: Einspaltiges Design für ein Tumblelog (<a href="http://de.wikipedia.org/wiki/Tumblelog">Was ist das?</a>).
+VERSION: 1.0
+AUTHOR: Marten Oosterhoff
+AUTHOR URI: http://lippeblogs.de
+
+	GNU General Public License
+	http://www.gnu.org/licenses/gpl.html
+
+*/
+
+
+@import url('blueprint/blueprint/src/reset.css');
+@import url('blueprint/blueprint/src/typography.css');
+/*@import url('blueprint/blueprint/plugins/fancy-type/screen.css');*/
+@import url('blueprint/blueprint/src/forms.css');
+@import url('../sandbox-layouts/1c-b.css');
+
+body {
+	text-align: center;
+	border-top: 5px solid #800;
+}
+
+h3,h4,h5,h6,
+.entry-meta { clear: both; }
+
+.skip-link {display: none;}
+
+#wrapper {
+	margin: 3em auto 0 auto;
+	text-align: left;
+	width: 550px;
+	background: #fff;
+}
+#header {
+	text-align: center;
+}
+#header h1#blog-title a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#access {
+	margin-top: 1.5em;
+}
+#comments {
+	/*border-top: 1px solid #ccc;*/
+	margin-top: 3em;
+}
+#comments, .post {
+	text-align: left;
+}
+.comment {
+	margin: 1.5em 0;
+}
+.comment-author, .comment-meta { /*font-size: .8em;*/ }
+#footer, #menu, #nav-below { /*font-size: .8em;*/ }
+#menu {
+	/*float: right;*/
+	/*border-bottom: 1px solid #ccc;*/
+}
+/*#menu li {
+	float: left;
+}
+#menu li a {
+	margin-left: 1.5em;
+}
+*/
+#container {
+	margin: 1.5em 0;
+	clear: both;
+}
+#nav-above {
+	display: none;
+}
+#nav-below {
+	margin-top: 3em;
+}
+#content {
+	padding-top: 1.5em;
+}
+
+#menu, .entry-date {
+	display: none;
+}
+.entry-meta {
+/*	margin-top:1.5em;
+	display: block;*/
+	color: #666;
+	border-top: 1px dotted #666;
+	/*font-size: .8em;*/
+}
+a {
+	color: #800;
+	text-decoration: none;
+}
+a:hover {
+	color: #f00;
+	text-decoration: underline;
+}
+.post {margin-bottom: 3em;}
+.post p img {
+	margin-right: .75em;
+	max-width: 550px;
+}
+img.wp-smiley {
+	display: inline;
+	vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	margin-right: 0 .05em;
+}
+li.comment {
+	padding: .5em;
+}
+li.comment.alt {
+	background: #efefef;
+}
+
+.comment-author {
+	font-weight: bold;
+}
+
+h2 {/*font-weight: bold;*/}
+
+.sidebar ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+.widget {margin-top: 3em;}
+
+/* Taken from blueprint fancy-type plugin */
+.alternative { 
+  color: #666; 
+  font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif; 
+  font-style: italic;
+  font-weight: normal;
+}
+.dquo { margin-left: -.5em; }
+p.incr, .incr p {
+	font-size: 10px;
+	line-height: 1.44em;  
+	margin-bottom: 1.5em;
+}
+.caps { 
+  font-variant: small-caps; 
+  letter-spacing: 1px; 
+  text-transform: lowercase; 
+  font-size:1.2em;
+  line-height:1%;
+  font-weight:bold;
+  padding:0 2px;
+}

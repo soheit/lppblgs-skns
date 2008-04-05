@@ -1,0 +1,429 @@
+/*
+SKIN NAME: K2
+THEME URI: http://zeo.unic.net.my/notes/sandboxk2-theme/
+DESCRIPTION: Das bekannte K2-Design mit der Möglichkeit, eine eigene Grafik oder ein Foto in den Seitenkopf einzubauen..
+VERSION: 1.0
+AUTHOR: Safirul Alredha
+AUTHOR URI: http://zeo.unic.net.my/
+
+	GNU General Public License
+	http://www.gnu.org/licenses/gpl.html
+
+*/
+
+@import url('lib/reset.css');
+@import url('lib/typo.css');
+
+/*#content {background: url('baseline-18.png');}*/
+
+body {  
+	margin: 0 0 1em; 
+	color: #444; 
+	background-color: #ededed; 
+	}
+
+h1, h2, h3, h4 {clear: both;}
+a {
+	color: #27d;
+	text-decoration: none;
+	}
+
+a:hover { color: #26d; }
+	
+a:visited { color: #b41;}
+	
+a img, 
+a:hover img, 
+a:visited img { 
+	border: 0;  
+	outline: none; 
+	}
+	
+address { 
+	display: inline; 
+	font-style: normal;
+	}
+
+pre { 
+	overflow: auto; 
+	width: 98%; 
+	padding: 0.5em 0 0.5em 1em; 
+	margin: 1em 0; 
+	clear: both; 
+	}
+
+code,
+kbd {}
+
+#wrapper { 	
+	margin: 0 auto;
+	padding: 1em 0 0;
+	width: 770px;
+	border-bottom: 0.1em solid #ddd;
+	border-left: 0.1em solid #ddd;
+	border-right: 0.1em solid #ddd;
+	background-color: #fff;
+	}
+	
+#wrapper p.access { 
+	display: none; 
+	} /* Hide Skip to Navigation */
+
+#container { 
+	clear: both; 
+	float: left; 
+	width: 63%;
+	margin: 1em 0 2em 2em; 
+	display: inline;
+	}
+
+#header {
+	color: #fff; 
+	background-color: #3371A3;
+	text-align: left; 
+	position: relative;
+	height: 160px;
+	}
+	
+	#blog-title { 
+		margin: 0 1em 0.2em;
+		padding-top: 2.5em; 
+		}
+		
+	#blog-title a { color: #fff; }
+	
+	#blog-description { margin: 0 0 0 2em; }
+
+#content #nav-above { display: none; }
+	
+#content h3 {}
+	
+#content p {}
+
+#content ol,
+#content ul {}
+	
+#content li {}
+
+#content dl {}
+#content dt {}
+#content dd {}
+
+.hentry {}
+
+.entry-title,
+.page-title,
+.post-title { 
+	font-weight: normal;
+	margin-top: 1.5em;
+	}
+
+.entry-title a {}
+
+.entry-title a:hover,
+.entry-title a:visited {}
+
+.archive-meta {}
+
+.entry-meta {}
+
+.entry-meta a {}	
+.entry-meta a:hover {}
+
+.entry-content {}
+.entry-content ul {margin-left: 1.5em;}
+.entry-content ul li {list-style-type: square;}
+
+.entry-content h3 {font-weight: normal;}
+
+.entry-content h4 {}
+
+.entry-content blockquote { 
+	border-left: 0.4em solid #eee; 
+	margin: 1em 0 0 2em; 
+	padding: 0 0 0 1em; 
+	}
+
+		
+.entry-content .attachment img { 
+	margin: 0.4em auto;
+	padding: 0.3em;
+	display: block; 
+	border: 0.05em solid #ccc; 
+	}
+
+
+	
+.entry-content .attachment-name { text-align: center; }
+
+/* Asides */
+#content .category-asides .entry-title {font-weight: normal;}
+	
+#content .category-asides .entry-category,
+#content .category-asides .entry-comments {display: none;}
+
+.sidebar #asides li {}
+
+.sidebar #asides h4 {}
+
+.sidebar #asides h4 a {}
+
+/* Image and Alignment */
+.alignleft {float: left;}
+		
+.alignright {float: right;}
+	
+.center {text-align: center;}
+
+img.alignleft { 
+	margin: 0.4em 0.5em 0.4em 0; 
+	display: inline;
+	}
+	
+img.alignright { 
+	margin: 0.4em 0 0.4em 0.5em;
+	display: inline;
+	}
+	
+img.center { 
+	margin: 0.4em auto;
+	display: block; 
+	}
+
+img.alignleft,	
+img.alignright,
+img.center { 
+	border: 0.05em solid #ccc; 
+	padding: 0.3em;
+	}
+
+img.border { 
+	margin: 0 0.4em; 
+	padding: 0.3em;
+	border: 0.05em solid #ccc;
+	}
+	
+img.noborder {border: none !important;}
+
+/* Sidebar */
+.sidebar { 
+	float: right; 
+	display: inline; 
+	width: 25%; 
+	margin: 0 2em 0 0;
+	}
+	
+	#primary { 
+		margin-top: 2em; 
+		padding-top: 1.5em; 
+		}
+		
+	#secondary { 
+		margin-bottom: 1em; 
+		clear: right; 
+		}
+	
+.sidebar h3 { 
+	clear: both; 
+	font-weight: normal;
+	}
+
+.sidebar p {}
+
+.sidebar ul, 
+.sidebar ol, 
+.sidebar ul ul, 
+.sidebar ol ol {list-style: none;}
+	
+.sidebar ul ul ul,
+.sidebar ul ul ul ul {list-style: square;}
+
+.sidebar ol ol ol {list-style: lower-alpha;}
+
+.sidebar ol ol ol ol {list-style: lower-roman;}
+	
+.sidebar li {}
+	
+.sidebar li li {}
+
+.sidebar #pages li {}
+	
+.sidebar #pages ul ul { 
+	margin-left: 1.5em; 
+	font-weight: normal; 
+	}
+	
+.sidebar #pages ul li.current_page_item {font-weight: bold;}
+
+	/* Damn calendar! */
+	#calendar { margin-top: 1em; }
+	.widget_calendar h3  { display: none; }
+	.widget_calendar #wp-calendar { width: 100%; text-align: center; }
+	.widget_calendar #prev { text-align: left; }
+	.widget_calendar #next { text-align: right; }
+
+/* Search form */
+#search h3 { 
+	display: none; 
+	} /* Hide search label */
+	
+#s { 
+	height: 1.2em; 
+	width: 60%; 
+	padding: 0.1em 0.2em; 
+	}
+	
+#footer { 
+	clear: both; 
+	padding: 0 2em 1em; 
+	border-top: 1px solid #ccc;
+	}
+	
+#footer a { }	
+
+#footer a:hover {}
+
+#footer ul { 
+	display: block; 
+	text-align: right;
+	}
+	
+#footer ul li { display: inline; }
+
+/* Global Navigation */
+#globalnav ul#menu { 
+	position: absolute;
+	bottom: 0;
+	margin: 0 3em;
+	display: block;
+	}
+	
+#globalnav ul#menu li { 
+	display: inline; 
+	}
+
+#globalnav ul#menu a { 
+	float: left; 
+	margin: 0 0.5em 0 0; 
+	padding: 0.1em 1.5em; 
+	color: #fff; 
+	}
+	
+#globalnav ul#menu a:hover { color: #fff; }
+
+#globalnav ul#menu li.page_item a:active,
+#globalnav ul#menu li.page_item a:hover { 
+	background-color: #333; 
+	color: #eee; 
+	text-decoration: none; 
+	}
+	
+#globalnav ul#menu li.current_page_item a,
+#globalnav ul#menu li.current_page_item a:active,
+#globalnav ul#menu li.current_page_item a:hover,
+#globalnav ul#menu li.current_page_item a:visited { 
+	background-color: #fff; 
+	color: #333; 
+	}
+
+#globalnav ul#menu ul { display: none; } /* Hide Global Navigation Sub Pages */	
+
+/* Page navigation */
+.navigation { 
+	clear: both;
+	height: 1%; 
+	margin: 2em 0 0; 
+	}
+	
+.navigation a {color: #999;}
+
+.navigation a:hover {color: #777;}
+	
+.nav-next { 
+	float: right; 
+	display: block; 
+	text-align: right; 
+	width: 50%; 
+	}
+	
+.nav-previous { 
+	float: left; 
+	display: block; 
+	text-align: left; 
+	width: 50%; 
+	}
+
+.navigation span {}
+
+/* Comment */
+.gravatar { 
+	border: 0.05em solid #ddd; 
+	float: right;
+	}
+
+.commentlist {}	
+
+#comments li { 
+	margin: 1em 0;
+	padding: 1em;
+	background-color: #f7f7f7;
+	}
+
+#comments li li { 
+	margin: 0 0 0.2em; 
+	padding: 0; 
+	}
+
+#comments li.alt { 
+	background-color: #efefef; 
+	} /* Alternate background */
+
+#comments li.byuser {}
+
+#comments li.bypostauthor {}
+	
+#pingbacks li { list-style: square; }
+
+#pingbacks li p { margin-top: 1em; }
+
+.comment-entry { padding: 0.5em 0; }
+
+.comment-edit,
+.pingback-edit {}
+
+.comment-author { font-weight: bold; }
+
+.comment-meta { color: #777;}
+
+#mustlogin,
+.formcontainer { width: 100%; }
+
+#commentform .form-label { margin: 0.5em 0 0; }
+	
+#commentform #author, 
+#commentform #email, 
+#commentform #url { padding: 0.1em 0.2em;}
+	
+#commentform textarea#comment { 
+	width: 98%; 
+	height: 15em; 
+	padding: 0.1em 0.2em; 
+	}
+	
+#commentform #submit { 
+	margin: 0.5em 0; 
+	padding: 0 0.2em; 
+	}
+	
+	#nav-above, #nav-below {clear: both;}
+	
+	div#comments {padding-top: 3em;}
+	
+	.p1 {margin-top: 2em;}
+	
+	.entry-date {font-style: italic;}
+	
+	
+div#menu, .skip-link {display: none;}
+
+p img {	margin: 0 1.5em .5em 0; }
