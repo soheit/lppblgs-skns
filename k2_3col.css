@@ -35,6 +35,12 @@ body {
 #respond { margin: 1.5em 1.5em 1.5em 1.5em; }
 div#comments-list { padding: 1.5em; }
 #content { padding-top: 1.5em; }
+#footer p { padding: 1.5em 3em; }
+h2.page-title {
+	margin-left: .75em;
+	margin-right: .75em;
+}
+
 
 .post,
 .page { margin: 1.5em; }
@@ -48,12 +54,8 @@ div#comments-list { padding: 1.5em; }
 
 /* TYPO 
 --------------------------------------------------------------------------- */
-h2,
+
 .entry-date { font-family: 'Georgia', 'Times New Roman', Times, serif; }
-h2.page-title {
-	margin-left: .75em;
-	margin-right: .75em;
-}
 #content h2.entry-title {
 	padding-top: 1em;
 }
@@ -91,7 +93,10 @@ div.page,
 	color: #666;
 }
 .comment-meta { color: #666; }
-#footer { background: #fff; }
+#footer { 
+	background: #fff;
+	border-top: 10px solid #DBE4FF;
+}
 .comment { background: #efefef; }
 
 a, a:link, a:visited, a:hover, a:active { color: #900; }
