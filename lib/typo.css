@@ -6,7 +6,7 @@
 */
 
 body {
-	font-family: "Helvetica Neue", Verdana, Arial, Helvetica, sans-serif;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
 	font-size: 75%;
 	line-height: 1.5em;
 	margin: 0; 
@@ -44,6 +44,11 @@ li {
 h5,h6 {font-weight: bold;}
 strong {font-weight: bold;}
 em {font-style: italic;}
+blockquote  { 
+	margin: 1.5em; 
+	color: #666; 
+	font-style: italic; 
+}
 .small {
 	margin: 0;
 	font-size: .8333333333333334em;
