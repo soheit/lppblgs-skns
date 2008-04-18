@@ -361,7 +361,10 @@ img.noborder {border: none !important;}
 	float: right;
 	}
 
-.commentlist {}	
+#comments-list ol,
+#trackbacks-list ol {
+	margin-left: 2.5em;
+}
 
 #comments li { 
 	margin: 1em 0;
