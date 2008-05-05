@@ -1,0 +1,57 @@
+body { background-color:#151515; }
+#container { border-bottom: 2px solid #6dcfeb; }
+#header {
+	border-bottom:1px solid #222;
+	background-color:#0a0a0a;
+}
+#header h1 a { color: #fff; }
+#blog-description {	color: #999; }
+div#menu ul li { 
+	background-color:#0a0a0a; 
+	border-bottom:1px solid #222;
+}
+div#menu ul li:hover {
+	border-bottom:1px solid #222;
+	background-color:#161616;
+}
+div#menu ul li a,
+div#menu ul li a:hover { color:#ccc; }
+.entry-meta {	color:#999; }
+.entrymeta a { color:#6dcfeb; }
+.entry-meta a:hover {	color:#6dcfeb; }
+.entry-title { color:#6dcfeb; }
+.entry-title a { color:#6dcfeb; }
+.entry-title a:hover { color:#6dcfeb; }
+.entry-date {	color:#999; }
+div.sidebar {	color:#ddd; }
+#primary.sidebar{
+	border-top:solid 1px #333333;
+	background-color:#1b1b1b;
+}
+#secondary.sidebar {
+	border-top:solid 1px #333333;
+	background-color:#1b1b1b;
+}
+div.sidebar h3 { color:#fff; }
+.sidebar ul li ul li a { color:#6dcfeb; }
+.sidebar ul li ul li a:hover { color:#6dcfeb; }
+.comments h3 { border-bottom: 1px solid #333; }
+#respond h3 {	border-bottom: 1px solid #333; }
+.comments input, .comments textarea{
+	border:1px solid #d1d1d1;
+}
+.comments textarea:focus{
+	background:#eee;
+	border:1px solid #a1a1a1;
+}
+.comments textarea:focus, .comments input:focus{
+	background:#eee;
+	border:1px solid #a1a1a1;
+}
+ol.commentlist{ color:#777; }
+#comments li { border:solid 1px #333333; }	
+#comment-notes { color:#999; }
+.form-label {	color:#999; }
+.required {	color:#FF0000; }
+a { color:#6dcfeb; }
+a:hover{ color:#6dcfeb; }
