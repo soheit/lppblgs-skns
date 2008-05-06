@@ -10,7 +10,7 @@ TEMPLATE: sandbox
 
 @import url('reset.css');
 @import url('typo.css');
-@import url('chaosway/black.css');
+@import url('chaosway/friendly.css');
 
 
 body {
