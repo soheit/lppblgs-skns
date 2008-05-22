@@ -1,4 +1,4 @@
-/*
+﻿/*
 SKIN NAME: chaosway friendly
 DESCRIPTION: Bereit zum öffentlichen Beta-Test. Ein Mashup in hellen und freundlichen Farben aus den Designs Chaosway (Wordpress.com) und Hemingway (Kyle Neath)
 VERSION: 1.0b
@@ -8,8 +8,8 @@ TEMPLATE: sandbox
 */
 
 
-@import url('reset.css');
-@import url('typo.css');
+@import url('lib/reset.css');
+@import url('lib/typo.css');
 @import url('chaosway/friendly.css');
 
 
