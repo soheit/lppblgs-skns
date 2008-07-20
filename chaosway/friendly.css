@@ -1,0 +1,61 @@
+body {
+	background-color:#e4f2fd;
+}
+#wrapper {background-color:#fff;}
+#container { border-bottom: 2px solid #2683ae; 	}
+#header {
+	background-color:#2683ae;
+}
+#header h1 a { color:#fff; }
+#blog-description {	color:#e4f2fd; }
+div#menu ul li { 
+	border-bottom:1px solid #222;
+	border-top:1px solid #2683ae;
+	background-color:#2683ae;
+}
+div#menu ul li:hover {
+	border-bottom:1px solid #222;
+	border-top:1px solid #222;
+	background-color:#464646;
+}
+div#menu ul li a,
+div#menu ul li a:hover { color: #fff; }
+.entry-meta { color:#666666; }
+.entrymeta a { color:#2683ae; }
+.entry-meta a:hover {	color:#2683ae; }
+.entry-title { color:#2683ae; }
+.entry-title a { color:#2683ae; }
+.entry-title a:hover { color:#2683ae; }
+.entry-date {
+	color:#999999;
+}
+div.sidebar {	color:#000; }
+#primary.sidebar{
+	background-color:#e4f2fd;
+}
+#secondary.sidebar {
+	background-color:#e4f2fd;
+}
+div.sidebar h3 { color:#000; }
+.sidebar ul li ul li a { color:#2683ae; }
+.sidebar ul li ul li a:hover { color:#2683ae; }
+.comments h3 { border-bottom: 1px solid #333; }
+#respond h3 {	border-bottom: 1px solid #333; }
+.comments input, .comments textarea{
+	border:1px solid #d1d1d1;
+}
+.comments textarea:focus{
+	background:#eee;
+	border:1px solid #a1a1a1;
+}
+.comments textarea:focus, .comments input:focus{
+	background:#eee;
+	border:1px solid #a1a1a1;
+}
+ol.commentlist{ color:#777; }
+#comments li { 	background-color:#e4f2fd; }	
+#comment-notes { color:#666666; }
+.form-label { color:#666666; }
+.required {	color:#FF0000; }
+a { color:#2683ae; }
+a:hover{ color:#2683ae; }
