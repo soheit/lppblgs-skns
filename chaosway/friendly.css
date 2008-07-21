@@ -1,6 +1,4 @@
-body {
-	background-color:#e4f2fd;
-}
+body { background-color:#e4f2fd; color:#000; }
 #wrapper {background-color:#fff;}
 #container { border-bottom: 2px solid #2683ae; 	}
 #header {
