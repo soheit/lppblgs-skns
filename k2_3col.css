@@ -1,0 +1,103 @@
+/*
+SKIN NAME: k2_3col
+DESCRIPTION: Bereit zum öffentlichen Beta-Test. Fehler bitte per Mail an support[at]lippeblogs.de
+AUTHOR: Marten Oosterhoff, Lippeblogs.de
+*/
+
+@import url('http://lippeblogs.de/wp-content/themes/sandbox/skins/blueprint/blueprint/src/reset.css');
+@import url('http://lippeblogs.de/wp-content/themes/sandbox/skins/blueprint/blueprint/src/typography.css');
+@import url('http://lippeblogs.de/wp-content/themes/sandbox/skins/blueprint/blueprint/src/forms.css');
+@import url('http://lippeblogs.de/wp-content/themes/sandbox/sandbox-layouts/3c-r.css');
+
+#wrapper {
+	/*background: url('http://lippeblogs.de/wp-content/themes/sandbox/skins/baseline-18.png');*/
+}
+
+body {
+	text-align: center;
+}
+
+#access,
+#nav-above,
+#nav-below { display: none; }
+#wrapper {
+	text-align: left;
+	width: 960px;
+	margin: 0 auto;
+}
+#header { height: 160px; }
+#header #blog-title {
+	padding-left: .75em;
+	padding-top: 1em;
+}
+#header #blog-description { padding-left: 2em; }
+#comments,
+#respond { margin: 1.5em 1.5em 1.5em 1.5em; }
+div#comments-list { padding: 1.5em; }
+#content { padding-top: 1.5em; }
+#footer p { padding: 1.5em 3em; }
+h2.page-title {
+	margin-left: .75em;
+	margin-right: .75em;
+}
+
+
+.post,
+.page { margin: 1.5em; }
+.entry-title { padding: 0 .75em; }
+.entry-date,
+.entry-content { padding: 0 1.5em; }
+.entry-meta { padding: 0 1.5em 0 1.5em; }
+.comment { padding: 0 .5em; }
+.avatar { float :right; }
+.widget { margin-bottom: 4em; }
+
+/* TYPO 
+--------------------------------------------------------------------------- */
+
+.entry-date { font-family: 'Georgia', 'Times New Roman', Times, serif; }
+#content h2.entry-title {
+	padding-top: 1em;
+}
+.sidebar h3 { font-weight: bold; }
+a, a:link, a:visited, a:hover, a:active { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* LISTS 
+--------------------------------------------------------------------------- */
+div.sidebar ul.xoxo {
+	margin: 5em .5em 0 .5em;
+}
+div.sidebar ul.xoxo li ul {
+	margin: 1.5em 0;
+}
+div.sidebar ul.xoxo li ul li {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+/* COLORS 
+--------------------------------------------------------------------------- */
+body { background: #41637D; }
+#wrapper {
+	background: #fff url('k2_3col/container_bg5.jpg') repeat-x;
+	border: 1px solid #000;
+}
+#container {}
+#header {	background: #fff; }
+div.post, 
+div.page,
+#comments {	background: #fff; }
+.entry-meta {
+	border-top: 1px solid #DBE4FF;
+	color: #666;
+}
+.comment-meta { color: #666; }
+#footer { 
+	background: #fff;
+	border-top: 10px solid #DBE4FF;
+}
+.comment { background: #efefef; }
+
+a, a:link, a:visited, a:hover, a:active { color: #900; }
+a:hover { color: #000; }

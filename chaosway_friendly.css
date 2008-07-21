@@ -1,0 +1,223 @@
+﻿/*
+SKIN NAME: chaosway friendly
+DESCRIPTION: Bereit zum öffentlichen Beta-Test. Ein Mashup in hellen und freundlichen Farben aus den Designs Chaosway (Wordpress.com) und Hemingway (Kyle Neath)
+VERSION: 1.0b
+AUTHOR: Pascal Lotzin
+AUTHOR URI: http://penguin-design.de
+TEMPLATE: sandbox
+*/
+
+
+@import url('lib/reset.css');
+@import url('lib/typo.css');
+@import url('chaosway/friendly.css');
+
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	color:#ddd;
+}
+
+#wrapper {
+	margin:0 auto;
+	padding:0;
+	text-align:left;	
+	width:780px;
+}
+
+#container {
+	clear:both;
+	width:780px;
+}
+
+#content{
+	margin:10px;
+	width:760px;
+}
+
+#footer{
+	clear:both;
+	width:780px;
+	padding:1.3em;
+	text-align:center;
+	font-size:.85em;
+}
+
+#header{
+	width:780px;
+	height:52px;
+	padding-top:20px;
+}
+
+#header h1 a { 
+	font-family: "Lucida Grande", "Lucida Sans", Verdana, Arial, sans-serif;
+	margin-left:20px;
+}
+
+#blog-description {
+	margin-left:20px;
+	margin-top:-1.5em;
+	font-size:.85em;
+}
+
+.post {
+	margin-bottom:15px;
+	padding:5px 10px;
+}
+.post p {margin:.5em 0;}
+
+/* menu */
+
+div#menu{width:780px;}
+div#menu ul li{float:right;font-size:.85em;}
+div#menu ul li {
+	padding:.7em;
+}
+div#menu ul li:hover {
+	padding:.7em;
+}
+div#menu ul li a {
+	text-align:center;
+	text-decoration:none;
+}
+div#menu ul li a:hover {
+	text-align:center;
+	text-decoration:none;
+}
+div#menu ul ul{display:none;}
+div#menu ul ul li{float:none;}
+div#menu ul ul li a{margin:0;padding:0;}
+
+/* entry */
+
+.entry-meta {
+	font-size: 11px;
+}
+.entrymeta a {}
+.entry-meta a:hover {}
+.entry-title {
+	clear:both;
+	font-family: "Lucida Grande", "Lucida Sans", Verdana, Arial, sans-serif;
+	font-size: 24px;
+}
+.entry-title a {}
+.entry-title a:hover {}
+.entry-date {
+	font-size: 11px;
+}
+.entry-category{
+	padding-left:15px;
+}
+.entry-commentlink {
+	padding-left:15px;
+}
+
+/* sidebar */
+
+div.sidebar {
+	width:780px;
+	font-size:.85em;
+}
+
+#primary.sidebar{
+	float:left; 
+	width:360px;
+	margin:10px;
+	padding:0 5px 5px 5px;
+}
+#secondary.sidebar{
+	padding:0 5px 5px 5px;
+	float:right;
+	width:360px;
+	margin:10px;
+}
+div.sidebar h3 {
+	font-size: 1.2em;
+}
+
+div.sidebar ul ul {
+	margin: 0 0 0 1.0em;
+}
+div.sidebar ul ul ul {
+	margin: 0 0 0 0.5em;
+}
+div.sidebar ul ul li {
+	margin: 0;
+	list-style: disc inside;
+}
+div.sidebar ul ul ul li {
+	list-style: circle inside;
+}
+.sidebar ul li ul li a {}
+.sidebar ul li ul li a:hover {}
+
+/* comments */
+
+.comments{}
+.comments h3 {
+	font-size: 14px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+#respond h3 {
+	font-size: 14px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+.comments textarea{
+	width:410px;
+}
+.comments input, .comments textarea{}
+.comments textarea:focus{}
+.comments textarea:focus, .comments input:focus{}
+.comment-author{
+	display:block;
+}
+.comment-meta {
+ color:#666666;
+ 	font-size: 11px;
+}
+ol.commentlist{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+ol.commentlist li{
+	margin-bottom:0.5em;
+	padding:0.5em 1em;
+}
+#comments li { 
+	margin: .5em 0;
+	padding: 1.5em;
+	list-style:none;
+}	
+#comment-notes {
+	font-size: 11px;
+}
+
+/* sonstiges */
+
+#flickr ul li {list-style:none;margin:.5em;}
+
+.form-label {
+	font-size: 11px;
+}
+
+.required {}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+a:hover{}
+div#access div.skip-link{display:none;}
+div#nav-above,div#nav-below{width:100%;height:1em;}
+div#nav-above {margin-top:3em;}
+div#nav-below {margin:1.5em 0 3em 0;}
+.alignleft, div.nav-previous { float: left; }
+.alignright, div.nav-next{ float: right; }

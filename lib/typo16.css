@@ -54,6 +54,11 @@ li {
 h5,h6 { font-weight: bold; }
 strong { font-weight: bold; }
 em { font-style: italic; }
+blockquote  { 
+	margin: 1.5em; 
+	color: #666; 
+	font-style: italic; 
+}
 table {
 	border-collapse: collapse;
 	margin-bottom: 1.5em;
