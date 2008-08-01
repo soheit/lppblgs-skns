@@ -1,0 +1,237 @@
+/*
+SKIN NAME: oceanmist
+AUTHOR: Original: <a href="http://www.edmerritt.com">Ed Merrit</a> - &Auml;nderungen von <a href="http://www.penguin-design.de">Pascal Lotzin</a>
+DESCRIPTION: Zweispaltiges Design mit der Möglichkeit, eine eigene Grafik oder ein Foto in den Seitenkopf einzubauen.
+TEMPLATE: sandbox
+*/
+
+@import url('lib/reset.css');
+/* Two-column with sidebar on left from the /sandbox-layouts/ folder  */
+@import url('../sandbox-layouts/2c-r.css');
+@import url('lib/typo.css');
+@import url('oceanmist/oceanmist_c_default.css');
+
+body {
+	position: relative;
+	text-align: center;
+}
+div#access div.skip-link {
+	display: none;
+}
+div#wrapper {
+	display: block;
+	padding: 0;
+	margin: 0 auto;
+	width: 770px;
+	text-align: left;
+}
+div#header {
+	height: 295px;
+}
+div#header h1#blog-title {
+	line-height: 1.5em;
+	margin: 0 !important;
+	padding: 27px 0 0 18px;
+	width: 752px;
+	height: 38px;
+}
+#blog-title a {
+}
+#blog-description {
+	margin: 1.5em;
+}
+.entry-date, .entry-content, .page-title {
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+.entry-content img {
+	float: left;
+	margin: 0 .5em .5em 0;
+}
+.entry-meta {
+	clear: both;
+}
+a, a:visited {
+	text-decoration: none;
+}
+a:hover, a:hover {
+}
+#content p a:hover, #content ul a:hover {
+}
+.entry-title a:hover {
+}
+div#menu {
+	margin-top:-25px;
+	height: 25px;
+	width: 770px;
+}
+div#menu ul a {
+	font-weight: bold;
+	text-decoration: none;
+}
+div#menu ul, div#menu ul ul, div#menu ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+div#menu ul li {
+	float: left;
+	margin-left: 1em;
+}
+div#menu ul li a {
+	float: left;
+	display: block;
+	padding: 5px 5px 3px 5px;
+	font-weight: bold;
+}
+div#menu ul li a:hover {
+}
+div#menu ul ul {
+	display: none;
+}
+div#menu ul ul li {
+	display: none;
+}
+div#menu ul ul li a {
+	margin: 0;
+	padding: 0;
+}
+div#menu ul li:hover ul {
+	display: block;
+	font-size: .9em;
+	padding-top: .5em;
+	position: absolute;
+}
+div#menu ul li:hover ul li a {
+	border: none;
+	display: block;
+	padding: .1em;
+	width: 10em;
+}
+div#container {
+	margin-top: 0;
+}
+#wrapper {
+}
+div#content {
+}
+div.sidebar {
+}
+div#nav-above, div#nav-below {
+	height: 1em;
+}
+div#nav-above {
+	padding: 1.5em;
+}
+div#nav-below {
+	padding: 1.5em;
+}
+.alignleft, div.nav-previous {
+	float: left;
+}
+.alignright, div.nav-next {
+	float: right;
+}
+body.single div#comments {
+	margin: 0 1em;
+}
+form#commentform .form-label {
+	margin: 1em 0 0;
+}
+form#commentform span.required {
+}
+form#commentform, form#commentform p {
+	padding: 0;
+}
+input#author, input#email, input#url {
+	width: 50%;
+}
+input#author, input#email, input#url, textarea#comment {
+	padding: .2em;
+}
+div.comments ol li {
+	margin: 0 0 3.5em;
+}
+textarea#comment {
+	height: 13em;
+	margin: 0 0 .5em;
+	overflow: auto;
+	width: 66%;
+}
+.entry-meta {
+	margin: 0 0 1.8em 0;
+	font-size: .8333333333333334em;
+	line-height: 1.8em;
+	padding: 0 1.8em;
+}
+.entry-title {
+	padding: 0 1em;
+}
+div#content {
+	margin: 0 224px 0 0;
+}
+div.sidebar {
+	width: 224px;
+}
+div#container {
+	float: left;
+	margin: 0 -224px 0 0;
+	width: 100%;
+}
+div.sidebar ul.xoxo {
+margin-top:-1.1em;}
+div.sidebar div, div.sidebar ul, div.sidebar li {
+	margin:0;
+	padding: 0;
+}
+div.sidebar h3 {
+	font-size: 1em;
+	text-transform: uppercase;
+	padding: 8px 15px;
+}
+div.sidebar input#s{
+	width:7em;
+}
+div.sidebar li{
+	list-style:none;
+	margin:0 0 1em;
+}
+div.sidebar li form{
+	margin:0.2em 0 0 1em;
+	padding:0;
+}
+div.sidebar ul ul{
+	margin:0 0 0 1em;
+}
+div.sidebar ul ul li{
+list-style:disc;
+	margin:0 0 0 1em;
+}
+div.sidebar ul ul ul{
+	margin:0 0 0 0.5em;
+}
+div.sidebar ul ul ul li{
+list-style:disc;
+}
+#comments li {
+	margin: 1em 0;
+	padding: 1em;
+}
+ul.blogroll li {
+margin-left:1em;
+}
+#comments li.alt {
+}
+#comments li li {
+	margin: 0 0 .2em;
+	padding: 0;
+}
+.comment-meta {
+}
+div#footer {
+	text-align: left;
+	padding: 15px 10px;
+	width: 750px;
+}
+#tag_cloud a {margin-left:1em;}
+#flickr ul li {list-style:none;margin:.5em;}
