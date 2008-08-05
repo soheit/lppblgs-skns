@@ -10,35 +10,18 @@ caption, th, td {text-align: left;font-weight: normal;}
 blockquote:before, blockquote:after, q:before, q:after {content: "";}
 blockquote, q {quotes: "" "";}
 
-img.centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
+.post p img: {float:left}
+.post p img p img: {float:none}
+.post ul li img {float:none}
 
-img.alignright {
-    padding: 4px;
-    margin: 0 0 2px 7px;
-    display: inline;
-    }
-
-img.alignleft {
-    padding: 4px;
-    margin: 0 7px 2px 0;
-    display: inline;
-    }
-
-.alignright {
-    float: right;
-    }
-
-.alignleft {
-    float: left
-    }
-
-/*
+.entry-content img {
+		float:left;
+		display:block;
+		margin: 5px 10px 10px 0;
+		padding: 0 10px 10px 0;
+		border:none;
+}
 .entry-meta {
 	clear: left;
 	display: block;
 }
-*/
