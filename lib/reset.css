@@ -10,9 +10,9 @@ caption, th, td {text-align: left;font-weight: normal;}
 blockquote:before, blockquote:after, q:before, q:after {content: "";}
 blockquote, q {quotes: "" "";}
 
-.post p img: {float:left}
-.post p img p img: {float:none}
-.post ul li img {float:none}
+.hentry p img {float:left;}
+.hentry p img p img {float:none;}
+.hentry ul li img {float:none;}
 
 .entry-content img {
 		float:left;
