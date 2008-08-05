@@ -1,0 +1,384 @@
+/*
+SKIN NAME: bluered
+DESCRIPTION: Bereit zum öffentlichen Beta-Test.
+VERSION: 1.0b
+AUTHOR: Pascal Lotzin
+AUTHOR URI: http://penguin-design.de
+TEMPLATE: sandbox
+*/
+
+
+@import url('lib/reset.css');
+@import url('lib/typo.css');
+
+body { 
+background: #fff; 
+color: #111; 
+font-family:Georgia, "Times New Roman", Times, serif !important;
+}
+
+div#wrapper {
+float:left;
+width:830px;
+margin:0 auto;
+background:left url(images/bg_wrapper.jpg) repeat-y;
+}
+
+a, a:visited { color: #2361a1; text-decoration: none; }
+
+a:hover { color: #2361a1; text-decoration: underline; }
+
+div#header {
+width:220px;
+padding:1px 20px 0 60px;
+}
+
+h1#blog-title,h1#blog-title a,h1#blog-title a:visited {
+font-size:24px;
+margin-top:35px;
+color: #BFBFAC;
+text-decoration:none;
+font-family:'Arial', Helvetica, Georgia, Sans-Serif;
+}
+
+div#blog-description {
+margin-top:-20px;
+font-size:11px;
+color: #99998A;
+}
+
+div#container {
+padding-left:40px;
+width:490px;
+float:right;
+margin-top:-68px;
+overflow:hidden;
+}
+
+div#content {
+overflow:hidden;
+}
+
+div.entry-content {
+line-height:1.5em;
+}
+
+p {
+margin:12px 0;
+}
+
+div.entry-date {
+	font-size:0.8em;
+	color:#888;
+	margin-top:2px;
+	text-transform:uppercase;
+}
+
+acronym,abbr,span.caps {
+cursor:help;
+letter-spacing:.05em;
+}
+
+blockquote {
+border:1px solid #eee;
+color:#777;
+margin:12px 0;
+padding:0 15px 10px;
+}
+
+blockquote p {
+margin:0;
+padding:9px 0 0;
+}
+
+blockquote cite {
+display:block;
+margin:5px 0 0;
+}
+
+code {
+background:#f7f7f7;
+color:#693;
+font:100% "courier new", courier, monospace;
+}
+
+code a, code a:visited{
+color:#693;
+text-decoration:underline;
+}
+
+body.home div.entry-meta,body.archive div.entry-meta, body.search div.entry-meta {
+font-size:11px;
+color:#888;
+padding-top:5px;
+padding-left:5px;
+margin-bottom:29px;
+border-top:1px solid #eee;
+}
+
+body.single div.entry-meta {
+font-size:11px;
+color:#888;
+border:1px solid #eee;
+line-height:1.4em;
+margin-top:20px;
+padding:6px;
+}
+
+a img {
+border:0;
+}
+
+.center,.centered {
+display:block;
+border:1px solid #eee;
+margin:0 auto;
+padding:3px;
+}
+
+.alignright,.right,r {
+float:right;
+padding:0 2px 0 13px;
+}
+
+.alignleft,.l,.r {
+float:left;
+padding:0 10px;
+}
+
+h3 ul li,div#content ul#archives-page li,div#content ul#links-page li {
+list-style-type:none;
+}
+
+li#monthly-archives,.hentry {
+margin-top:10px;
+}
+
+div.sidebar {
+width:220px;
+color: #99998A;
+padding:0 20px 0 60px;
+}
+
+div.sidebar a, div.sidebar a:visited{
+color: #BFBFAC;
+}
+
+div.sidebar ul ul {
+list-style:none;
+}
+div.sidebar li {
+list-style:none;
+margin-top:5px;
+}
+div.sidebar ul li {
+list-style:none;
+}
+div.sidebar li li {
+list-style:none;
+}
+div.sidebar ul li ul li {
+list-style:none;
+
+}
+div.sidebar ul li ul li ul li {
+list-style:none;
+padding-left:15px;
+}
+
+li.page_item {text-transform:uppercase;letter-spacing:2px;}
+.widget_pages h3 {
+visibility:hidden;}
+
+div.sidebar h3 {
+color:red;
+font-size: 1.0em;
+font-variant: small-caps; 
+letter-spacing: 2px;
+}
+
+div#calendar_wrap {
+margin:-20px 0 0 3px;
+}
+
+#wp-calendar a {
+font-weight:700;
+}
+
+#wp-calendar td {
+padding-top:2px;
+text-align:center;
+}
+
+div#calendar_wrap caption {
+padding-bottom:8px;
+font-size:14px;
+font-weight:700;
+}
+
+#wp-calendar #prev a {
+padding-top:8px;
+text-align:left;
+}
+
+#wp-calendar #next a {
+text-align:right;
+padding-top:8px;
+}
+
+input#searchsubmit{
+width:45px;
+}
+
+input#s {
+width:90px;
+background:#fff url('images/search.gif') no-repeat 4px 3px;
+color:#999;
+padding:2px 2px 2px 27px;
+}
+
+div.entry-content h1,div.entry-content h2,div.entry-content h3,div.entry-content h4,div.entry-content h5,div.entry-content h6 {
+color:#bbb;
+}
+
+h2.page-title {
+color:#bbb;
+font-size:1.2em;
+padding-top:10px;
+}
+
+h2.entry-title, h3.entry-title {
+	font-size:24px;
+	color:#111;
+}
+
+h2.entry-title a, h2.entry-title a:visited, h2.entry-title a, h2.entry-title a:visited {
+	font-size:24px;
+	color:#111;
+}
+h2.entry-title a:hover,h3.entry-title a:hover {color:#2361a1;text-decoration:none;}
+
+
+#comments h3 {
+	font-size:16px;
+	color:#666;
+	border-bottom:1px dotted #888;
+	padding-bottom:10px;
+	padding-left:10px;
+	font-variant: small-caps; 
+	letter-spacing:1px;
+}
+
+div.comment-meta {
+color:#888;
+}
+
+div.comments ol .comment-author {
+font-weight:700;
+color:#111;
+}
+
+#comments-list {
+padding-top:10px;
+}
+
+div#respond {
+padding-top:15px;
+}
+
+div.comments ol li,div.comments ol li.bypostauthor {
+border-bottom:1px dotted #888;
+list-style-type:none;
+padding:15px;
+}
+
+div.comments ol p {
+line-height:1.5em;
+margin:10px 15px 10px 0;
+}
+
+div.comments ol {
+margin:0 auto;
+padding:0;
+}
+
+form#commentform {
+margin-top:12px;
+border:1px solid #f5f5f5;
+background:#fafafa;
+margin-bottom:15px;
+padding:0 8px 5px;
+}
+
+div.form-input input,textarea#comment {
+background:#f5f5f5;
+border:1px solid #ddd;
+}
+
+div.form-input input:focus,textarea#comment:focus {
+background:#fff;
+border:1px solid #ccc;
+}
+
+textarea#comment {
+margin-bottom:15px;
+padding:5px;
+width:460px;
+}
+
+form#commentform input {
+margin-bottom:5px;
+}
+
+span.required {
+color: red;
+}
+
+input#submit {
+width:150px;
+height:30px;
+color:#333;
+}
+
+p.attachment-name {
+text-align:center;
+color:#888;
+background:#f4f4f4;
+}
+
+li.comment,li.trackback {
+margin-bottom:20px;
+}
+
+#access,div#menu ul ul,div.skip-link,hr,body.single li#meta,body.single li.linkcat,#nav-above,li#archives, body.home div.category-asides h2.entry-title, body.home div.category-asides div.entry-date, body.home div.category-asides span.cat-links, body.home div.category-asides .meta-sep, body.home div.category-asides .author, body.search li#pages,body.search li#meta,body.search li.linkcat, body.four04 li#pages,body.four04 li#meta,body.four04 li.linkcat {
+display:none;
+}
+
+li#pages {margin-bottom:30px;}
+
+div#footer {
+padding:20px 0 20px 320px;
+clear:both;
+width:510px;
+text-align:right;
+color:#888;
+}
+
+div#nav-below {
+padding:5px 0 20px 0
+}
+
+body.home div#nav-below a, body.home div#nav-below a:visited, body.archive div#nav-below a, body.archive div#nav-below a:visited, body.search div#nav-below a, body.search div#nav-below a:visited {
+font-weight:700;
+font-size:1.2em;
+}
+
+div.nav-previous {
+float:left;
+}
+
+div.nav-next {
+float:right;
+}
+
+#flickr ul li {list-style:none;margin:.5em;}
