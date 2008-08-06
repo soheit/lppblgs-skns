@@ -78,7 +78,10 @@ h2 { font-family: Georgia, Times, "Times New Roman", serif; }
 
 body { color: #333; }
 a { color: #000; }
-div#wrapper { background: left url('bluered/bg_wrapper.jpg') repeat-y; }
+div#wrapper { 
+	/*background: left url('bluered/bg_wrapper.jpg') repeat-y;*/ 
+	background: url('baseline-18.png');
+}
 #header, 
 #header a,
 .sidebar { color: #fff; }
