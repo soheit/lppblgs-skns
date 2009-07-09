@@ -17,10 +17,11 @@ AUTHOR URI:
 
 body {
 	text-align: center;
-	background: url('k2modern/grey_bg.jpg');
+	/*background: url('k2modern/grey_bg.jpg'); geändert*/
 	/*background: url('k2modern/back.jpg');*/
 	/*background: url('k2modern/86.jpg');*/
 	/*background: url('k2modern/120.jpg');*/
+        background-color: #396E48;
 }
 
 div#menu, .skip-link {display: none;}
